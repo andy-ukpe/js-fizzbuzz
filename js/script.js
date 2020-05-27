@@ -39,7 +39,7 @@ for (var i = 1; i <= 100; i++) {
   var numero = i;
     var itemLista = lista.innerHTML;
   // stampare numeri
-  // scrivere vicino ai multipli di 3 Fizz
+  
   if ( numero % 15 == 0) {// scrivere vicino ai multipli di 15 FizzBuzz
     numero = 'FizzBuzz';
   } else if ( numero % 3 == 0 ) {
