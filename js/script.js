@@ -15,4 +15,12 @@ for (var i = 0; i < 100; i++) {
   console.log(numero);
   var itemLista = lista.innerHTML;
   lista.innerHTML = itemLista + '<li>' + numero + '</li>';
+  // scrivere vicino ai multipli di 3 Fizz
+  if( numero % 3 == 0 ){
+    // scrivi Fizz
+    lista.innerHTML = itemLista + '<li>' + numero + ' Fizz' + '</li>';
+  } else if( numero % 5 == 0 ){// scrivere vicino ai multipli di 5 Buzz
+    // scrivi Fizz
+    lista.innerHTML = itemLista + '<li>' + numero + ' Buzz' + '</li>';
+  }
 }
